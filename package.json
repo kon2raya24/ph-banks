@@ -1,0 +1,15 @@
+{
+  "name": "ph-banks",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Philippine bank & e-money registry (SWIFT/BIC + InstaPay/PESONet) for JS and PHP. Part of the @ph-dev-utils family.",
+  "workspaces": [
+    "packages/js"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=@ph-dev-utils/banks",
+    "test": "npm run test --workspace=@ph-dev-utils/banks",
+    "build:data": "node scripts/build-data.mjs"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "@ph-dev-utils/banks",
+  "version": "0.1.0",
+  "description": "Philippine bank & e-money registry — SWIFT/BIC codes + InstaPay/PESONet participation flags for universal/commercial, thrift, rural & digital banks and e-wallets (GCash, Maya, etc.). Sourced from BSP/PCHC/BancNet/PDIC.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "data",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "philippines",
+    "filipino",
+    "bank",
+    "banks",
+    "swift",
+    "bic",
+    "instapay",
+    "pesonet",
+    "gcash",
+    "maya",
+    "bsp",
+    "fintech"
+  ],
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.5.0"
+  }
+}
