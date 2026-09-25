@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 ph-banks contributors
+Copyright (c) 2026 Lemmuel Turaya
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,16 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-The MIT license above covers the source code of this package.
-
-The bundled dataset (data/banks.json) is a compilation of factual public
-information from the Bangko Sentral ng Pilipinas (BSP) and its operators —
-PESONet ACH Participants (Philippine Clearing House Corporation) and InstaPay
-ACH Participants (BancNet) — the PDIC Directory of Insured Universal &
-Commercial Banks, and public SWIFT/BIC directories. These facts are not
-copyrighted by this project. This package is not affiliated with or endorsed by
-BSP, PDIC, PCHC, BancNet, or SWIFT. SWIFT/BIC codes and participation status
-change over time — always verify with the bank before initiating a transfer.
